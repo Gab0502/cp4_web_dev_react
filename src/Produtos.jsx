@@ -9,19 +9,22 @@ function Produtos(){
     return(
         <>
         <div id="container-produtos">
-        
+        <div>
         <img src = {imgtinto} alt="tinto" width = "1000px" heigth = "1000px"/>
         <label>Produto: Vinho Tinto</label>
-        
-        
+        </div>
+        <div>
         <img src = {imgbranco} alt="branco" width = "1000px" heigth = "1000px"/>
         <label>Produto: Vinho Branco</label>
-        
+        </div>
+        <div>
         <img src = {imgespumante} alt="espumante" width = "1000px" heigth = "1000px"/>
         <label>Produto: Vinho Espumante</label>
-
+        </div>
+        <div>
         <img src = {imgrose} alt="rose" width = "1000px" heigth = "1000px"/>
         <label>Produto: Vinho Rose</label>
+        </div>
         </div>
         </>
     )
