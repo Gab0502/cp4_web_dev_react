@@ -1,4 +1,5 @@
 import {} from 'react'
+import './Produtos.css'
 import imgtinto from './images/vinho_tinto.jpg'
 import imgbranco from './images/vinho_branco.jpg'
 import imgespumante from './images/vinho_espumante.jpg'
@@ -7,6 +8,7 @@ import imgrose from './images/vinho_rose.jpg'
 function Produtos(){
     return(
         <>
+        <div id="container-produtos">
         <h3>VINHO TINTO</h3>
         <img src = {imgtinto} alt="tinto" width = "1000px" heigth = "1000px"/>
         
@@ -18,6 +20,7 @@ function Produtos(){
         
         <h3>VINHO ROSE</h3>
         <img src = {imgrose} alt="rose" width = "1000px" heigth = "1000px"/>
+        </div>
         </>
     )
 }

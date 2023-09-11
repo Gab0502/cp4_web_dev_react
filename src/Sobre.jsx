@@ -4,7 +4,7 @@ import imgvinho from './images/vinho.jpg'
 function Sobre(){
     return(
         <>
-        <div><img src = {imgvinho} alt="vinho" width = "600px" heigth = "400px"/></div>
+        <div id='container-sobre'><img src = {imgvinho} alt="vinho" width = "600px" heigth = "400px"/></div>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum rerum saepe, voluptas ullam iste tempora libero? Aut corrupti deserunt, assumenda sapiente dolorem quae nisi eveniet sequi tenetur optio, a error!
         Sapiente cum perferendis enim id. Magnam, voluptates alias recusandae reiciendis nulla odit! Perspiciatis veniam pariatur dolorem quos placeat. Veritatis iste fugit ipsa consequuntur totam. Explicabo fuga id debitis maxime doloribus?
         Odio et repellendus quos dolorum iste eveniet laborum nobis ullam ex reprehenderit voluptatum architecto, sit cumque optio. Vitae molestiae magni autem, necessitatibus saepe minus pariatur rerum repudiandae earum, quis vel.

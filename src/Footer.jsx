@@ -1,10 +1,19 @@
 import {} from 'react'
+import './Footer.css'
 
 function Footer(){
-    return(
-        <>
-        <p>Telefone: +55 11 3385 8010 | E-mail: contato@fiap.com.br</p>
-        </>
-    )
+  return(
+    <>
+     <footer className="container-footer">
+      <div style={{backgroundColor: "#800000", color:"white"}}>
+        <br />
+        <p>&copy; 2023 Copyright: Vinheiria Agnello</p>
+        <p>Telefone: (+55) 11 98765-4321</p>
+        <p>E-mail: <a href="contato@agnello.com.br">contato@agnello.com.br</a></p>
+        <br /><br />
+      </div>
+     </footer>
+    </>
+  )
 }
 export default Footer
