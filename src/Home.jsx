@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
     <div id="container-home"></div>
-      <h2>Vinheiria Agnello</h2>
+      <h1>Vinheiria Agnello</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
         cum fugit. Ipsam distinctio quae esse veritatis, minus recusandae
